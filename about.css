@@ -171,3 +171,87 @@ html {
     float: right;
     margin: 0 20px; /* Add some margin for spacing */
 }
+
+/* Add custom styles to your about.css */
+/* Override Bootstrap's default styles */
+.navbar {
+   background-color: #000; /* Background color for the navbar */
+   border: none; /* Remove the border */
+}
+
+.navbar .navbar-toggler-icon {
+   background-color: #fff; /* Color for the hamburger icon */
+}
+
+.navbar .navbar-toggler {
+   border: none; /* Remove the border */
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+   color: #fff; /* Text color for the navigation links */
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+   color: #f5c518; /* Color when hovering over the navigation links */
+}
+
+.container {
+   padding: 20px; /* Add padding around the content */
+   background-color: #0a0a0a; /* Background color for the section */
+   color: #fff; /* Text color for the section */
+   border-radius: 10px; /* Rounded corners for the section */
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+.about-us h1 {
+   color: #f5c518; /* Text color for the section header */
+   font-size: 28px; /* Font size for the section header */
+   text-transform: uppercase; /* Uppercase the text */
+   letter-spacing: 2px; /* Adjust letter spacing */
+}
+
+body {
+   min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+}
+
+/* Add custom styles to your about.css */
+/* Override Bootstrap's default styles */
+.navbar {
+   background-color: #000; /* Background color for the navbar */
+   border: none; /* Remove the border */
+}
+
+.navbar .navbar-toggler-icon {
+   background-color: #fff; /* Color for the hamburger icon */
+}
+
+.navbar .navbar-toggler {
+   border: none; /* Remove the border */
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+   color: #fff; /* Text color for the navigation links */
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+   color: #f5c518; /* Color when hovering over the navigation links */
+}
+
+.container {
+   padding: 20px; /* Add padding around the content */
+   background-color: #0a0a0a; /* Background color for the section */
+   color: #fff; /* Text color for the section */
+   border-radius: 10px; /* Rounded corners for the section */
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+.about-us h1 {
+   color: #f5c518; /* Text color for the section header */
+   font-size: 28px; /* Font size for the section header */
+   text-transform: uppercase; /* Uppercase the text */
+   letter-spacing: 2px; /* Adjust letter spacing */
+}
+
+body {
+   min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+}
