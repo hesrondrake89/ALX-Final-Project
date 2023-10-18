@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaSeriesVault</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secular One">
+    <link rel="stylesheet" href="styles.css">
+    <a href="movie_info.html?title=MovieTitle">MovieTitle</a>
+    <style>
+        /* Add CSS for centering the text in the footer */
+        footer {
+            text-align: center;
+            background: #333; /* Background color for the footer */
+            color: #fff; /* Text color for the footer */
+            padding: 10px 0; /* Add some padding to space it out */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/my_logo.png" alt="CinemaSeriesVault">
+        </div>
+        <button id="aboutUsButton" onclick="window.location.href='about.html'" class="stylish-button">About Us</button>
+
+    </header>
+
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Welcome to CinemaSeriesVault</h1>
+                <p>Discover millions of movies & TV shows.</p>
+            </div>
+            <input type="text" id="movieTitleInput" placeholder="Enter movie/series title">
+            <button id="fetchButton">Search</button>
+        </div>
+    </div>
+
+    <!-- HTML structure for the movie section -->
+    <section class="movie-section">
+    <h2>Upcoming Movie Releases</h2>
+    <div id="movie-section-container">
+        <div class="movie-scroll-container" id="movieScrollContainer">
+            <div class="movie-container">
+                <!-- Movie elements will be added here using JavaScript -->
+                <!-- Add an empty div to fill the remaining space -->
+                <div class="empty-space"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <div id="movieData">
+        <!-- Add this span for the error message within the same div -->
+        <span id="errorMessage" class="error-message"></span>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 CinemaSeriesVault. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

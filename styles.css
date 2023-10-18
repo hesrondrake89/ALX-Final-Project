@@ -1,0 +1,319 @@
+body {
+    font-family: Nunito, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background-image: url('images/background_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-image: url("images/header-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.hero {
+    background-image: url('images/hero_background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #f5c518;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #d0ad1c;
+}
+
+#movieTitleInput {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+}
+
+h1, h2, h3 {
+    font-family: 'Secular One', cursive;
+}
+
+#errorMessage {
+    color: white;
+    font-size: 16px;
+    background-color: #000;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#movieTitleInput {
+    display: block;
+    margin: 20px auto; /* Add margin to center the input bar and create space */
+    width: 800px; /* Adjust the width as needed to increase the input bar width */
+    padding: 15px; /* Increase padding to make it taller */
+    font-size: 18px; /* Adjust font size as needed */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+
+#logo, #search-container, #movieTitleInput {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.header-background {
+    background-image: url("images/header-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8; /* Adjust opacity as needed */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Updated CSS to remove black overlay */
+.hero-content {
+    background-color: transparent; /* Set background color to transparent */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#logo, #search-container, #movieTitleInput {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+/* Styles for the movie section */
+.movie-section {
+    background-color: #f5f5f5; /* Background color for the movie section */
+    padding: 40px 0; /* Add some padding to the movie section */
+    text-align: center;
+}
+
+.movie-section h2 {
+    font-size: 28px;
+    color: #333; /* Text color for the section title */
+}
+
+
+.movie a {
+    text-decoration: none;
+    color: #333; /* Text color for movie titles */
+}
+
+.movie img {
+    max-width: 100%; /* Limit the maximum width of movie posters */
+    height: auto;
+    border: 1px solid #333; /* Add a border around movie posters */
+    border-radius: 5px;
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+.movie img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+
+/* Adjust the movie poster size and grid */
+.movie-poster img {
+    max-width: 250px; /* Set the maximum width for movie posters */
+    max-height: 225px; /* Set the maximum height for movie posters */
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+/* CSS for the scrolling container */
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minmax width as needed */
+    gap: 20px; /* Adjust the gap as needed to separate movies */
+    overflow: hidden;
+    white-space: nowrap;
+    width: 262%; /* Ensure the container takes up the full width */
+}
+
+.movie {
+    display: inline-block;
+    margin-right: 20px; /* Adjust the margin as needed to separate movies */
+}
+
+.movie p {
+    margin-top: 5px; /* Add space between movie titles */
+}
+
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    overflow: auto; /* Change 'hidden' to 'auto' */
+    white-space: nowrap;
+    position: relative;
+}
+
+.movie-scroll-container {
+    max-width: 100%; /* Ensure it takes up the available width */
+    overflow: visible; /* Change 'hidden' to 'visible' */
+    max-height: 300px; /* Set a maximum height for the scrollable area */
+}
+
+#movie-section-container {
+    max-height: 400px; /* Set a maximum height for the scrollable area */
+    overflow: auto; /* Enable scrolling for this container */
+}
+
+/* Styles for the movie section */
+.movie-section {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.movie-section h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.movie a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Updated CSS for the movie titles */
+.movie p {
+    margin-top: 5px;
+    white-space: normal; /* Wrap titles onto a new line if they don't fit */
+    max-width: 150px; /* Limit the maximum width for movie titles */
+}
+
+.movie-scroll-container {
+    max-width: 100%; /* Ensure it takes up the available width */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Disable vertical scrolling */
+    max-height: 300px; /* Set a maximum height for the scrollable area */
+}
+
+.stylish-button {
+    padding: 15px 20px;
+    background-color: #f5c518;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.stylish-button:hover {
+    background-color: #d0ad1c;
+}
+
+/* Stylish About Us button */
+.about-button {
+    display: block;
+    margin: 20px auto; /* Add margin to create space around the button */
+    padding: 10px 20px;
+    background-color: #f5c518;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.about-button:hover {
+    background-color: #d0ad1c;
+}
+
+/* Add this rule to shift the button to the right */
+.about-button.shift-right {
+    margin-left: 100px; /* You can adjust the margin value as needed */
+}
+

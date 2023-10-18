@@ -1,0 +1,181 @@
+body {
+    background-color: #121212; /* Dark background color */
+    color: #FFFFFF; /* Text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.movie-container {
+    display: flex;
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.movie-poster img {
+    max-width: 200px;
+    max-height: 300px;
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+.movie-info {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+strong {
+    color: #FFD700; /* Gold color for labels */
+}
+
+#returnButton {
+    background-color: #FFD700; /* Gold button color */
+    color: #000; /* Text color for the button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#returnButton:hover {
+    background-color: #FFA500; /* Hover color for the button */
+}
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#returnButton {
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#returnButton:hover {
+    background-color: #FFA500;
+}
+
+/* New CSS for movie-container */
+.movie-container {
+    display: flex;
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 800px; /* Limit maximum width for better alignment */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.movie-poster img {
+    max-width: 300px; /* Increase maximum width for the poster */
+    max-height: 450px; /* Increase maximum height for the poster */
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+.movie-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column; /* Display info in a column layout */
+    align-items: flex-start; /* Align info to the start of the column */
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+strong {
+    color: #FFD700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.movie-info-container {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 for 50% opacity) */
+    color: #fff; /* Text color for readability */
+    /* Add other styles for the container as needed */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.movie-info-container {
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% of the viewport width */
+    background-image: url('URL_TO_MOVIE_BACKGROUND_IMAGE');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 for 50% opacity) */
+    color: #fff; /* Text color for readability */
+    /* Add other styles for the container as needed */
+}
+
+
+body {
+    padding-top: 80px; /* Add padding to the top to make space for the header */
+}
+
+/* movie_info.css */
+header {
+    background-image: url("images/header-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+

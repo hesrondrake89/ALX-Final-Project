@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie/Series Information</title>
+    <link rel="stylesheet" href="movie_info.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/my_logo.png" alt="CinemaSeriesVault">
+        </div>
+    </header>
+
+    <div class="movie-container">
+        <div class="movie-poster">
+            <img id="moviePoster" src="" alt="Movie Poster">
+        </div>
+        <div class="movie-info">
+            <h1 id="movieTitle"></h1>
+            <p><strong>Year:</strong> <span id="movieYear"></span></p>
+            <p><strong>Director:</strong> <span id="movieDirector"></span></p>
+            <p><strong>Runtime:</strong> <span id="movieRuntime"></span></p>
+            <p><strong>Top-Billed Actors:</strong> <span id="movieActors"></span></p>
+            <p><strong>Genre:</strong> <span id="movieGenre"></span></p>
+            <p><strong>IMDB Rating:</strong> <span id="movieRating"></span></p>
+            <p><strong>Plot:</strong> <span id="moviePlot"></span></p>
+            <button id="returnButton">Return to Search</button>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const title = urlParams.get('title');
+            const year = urlParams.get('year');
+            const director = urlParams.get('director');
+            const runtime = urlParams.get('runtime');
+            const actors = urlParams.get('actors');
+            const genre = urlParams.get('genre');
+            const plot = urlParams.get('plot');
+            const rating = urlParams.get('rating');
+            const poster = decodeURIComponent(urlParams.get('poster'));
+
+            document.getElementById('movieTitle').textContent = title;
+            document.getElementById('movieYear').textContent = year;
+            document.getElementById('movieDirector').textContent = director;
+            document.getElementById('movieRuntime').textContent = runtime;
+            document.getElementById('movieActors').textContent = actors;
+            document.getElementById('movieGenre').textContent = genre;
+            document.getElementById('moviePlot').textContent = plot;
+            document.getElementById('movieRating').textContent = rating;
+            document.getElementById('moviePoster').src = poster;
+
+            // Handle the return button click
+            document.getElementById('returnButton').addEventListener('click', function () {
+                // Navigate back to the index.html page
+                window.location.href = 'index.html';
+            });
+        });
+    </script>
+</body>
+</html>
