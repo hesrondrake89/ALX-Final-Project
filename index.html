@@ -23,7 +23,6 @@
             <img src="images/my_logo.png" alt="CinemaSeriesVault">
         </div>
         <button id="aboutUsButton" onclick="window.location.href='about.html'" class="stylish-button">About Us</button>
-
     </header>
 
     <div class="hero">
@@ -39,17 +38,15 @@
 
     <!-- HTML structure for the movie section -->
     <section class="movie-section">
-    <h2>Upcoming Movie Releases</h2>
-    <div id="movie-section-container">
-        <div class="movie-scroll-container" id="movieScrollContainer">
-            <div class="movie-container">
+        <h2>Upcoming Movie Releases</h2>
+        <div id="movie-section-container" class="row">
+            <!-- Add Bootstrap responsive classes to your movie containers -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 movie-container">
                 <!-- Movie elements will be added here using JavaScript -->
-                <!-- Add an empty div to fill the remaining space -->
-                <div class="empty-space"></div>
             </div>
+            <!-- Add more movie containers as needed -->
         </div>
-    </div>
-</section>
+    </section>
 
     <div id="movieData">
         <!-- Add this span for the error message within the same div -->
