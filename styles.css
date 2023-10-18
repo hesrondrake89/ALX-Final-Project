@@ -9,7 +9,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url('images/background_1.jpg');
+    background-image: none;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -59,7 +59,7 @@ header {
 }
 
 .hero-content {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: transparent;
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
@@ -317,30 +317,32 @@ h1, h2, h3 {
     margin-left: 100px; /* You can adjust the margin value as needed */
 }
 
-/* Media Query for Mobile */
+/* Adjust the button size on small screens */
+@media (max-width: 576px) {
+    #aboutUsButton {
+        padding: 5px 10px;
+    }
+}
+
+
+/* Styles for desktop screens */
+/* These styles will apply to screens wider than 768px */
+@media (min-width: 769px) {
+    /* Your desktop-specific styles go here */
+    body {
+        width: 100%; /* Set a maximum width for the body element */
+        max-width: 1920px; /* Adjust the maximum width as needed */
+        margin: 0 auto; /* Center-align the content */
+    }
+}
+
+/* Styles for mobile screens */
+/* These styles will apply to screens 768px wide and below */
 @media (max-width: 768px) {
-    /* Adjust the styles for mobile screens here */
-    .logo img {
-        max-width: 100px; /* Make the logo smaller on mobile */
-    }
-
-    .hero-content {
-        max-width: 100%; /* Full width for hero content on mobile */
-    }
-
-    .hero-text h1 {
-        font-size: 24px; /* Slightly smaller font on mobile */
-    }
-
-    #movieTitleInput {
-        font-size: 14px; /* Smaller font for the input on mobile */
-    }
-
-    #fetchButton {
-        font-size: 16px; /* Smaller font for the button on mobile */
-    }
-
-    .movie-container {
-        font-size: 14px; /* Smaller font for movie containers on mobile */
+    /* Your mobile-specific styles go here */
+    body {
+        width: 100%; /* Set a maximum width for the body element on mobile */
+        margin: 0; /* Remove horizontal margin on mobile */
+        padding: 0; /* Remove horizontal padding on mobile */
     }
 }
