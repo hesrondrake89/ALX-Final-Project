@@ -6,6 +6,7 @@
     <title>CinemaSeriesVault</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Secular One">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <style>
         /* Add CSS for centering the text in the footer */
         footer {
@@ -26,12 +27,16 @@
 
     <div class="hero">
         <div class="hero-content">
-            <div class="hero-text">
+            <div class="hero-text" style="margin-top: 20px;">
                 <h1>Welcome to CinemaSeriesVault</h1>
                 <p>Discover millions of movies & TV shows.</p>
             </div>
-            <input type="text" id="movieTitleInput" placeholder="Enter movie/series title">
-            <button id="fetchButton">Search</button>
+            <div id="search-container" style="margin-top: 5px;">
+                <input type="text" id="movieTitleInput" placeholder="Enter movie/series title">
+                <button id="fetchButton">Search</button>
+                <span id="titleErrorMessage" class="error-message"></span> <!-- Title is Required Error -->
+                <span id="errorMessage" class="error-message"></span> <!-- Movie Not Found Error -->
+            </div>
         </div>
     </div>
 

@@ -173,33 +173,29 @@ h1, h2, h3 {
 
 /* Styles for the movie section */
 .movie-section {
-    background-color: #f5f5f5;
-    padding: 40px 0;
+    background-color: #f5f5f5; /* Background color for the movie section */
+    padding: 40px 0; /* Add some padding to the movie section */
     text-align: center;
-    overflow: hidden; /* Hide horizontal overflow */
 }
 
-.movie-container {
-    display: flex; /* Use flex container to hold movie posters */
-    flex-wrap: nowrap; /* Prevent wrapping to the next line */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    gap: 20px;
-    max-width: 100%; /* Ensure it takes up the available width */
+.movie-section h2 {
+    font-size: 28px;
+    color: #333; /* Text color for the section title */
 }
 
-.movie {
-    margin-right: 20px;
+
+.movie a {
+    text-decoration: none;
+    color: #333; /* Text color for movie titles */
 }
 
-/* Ensure that the movie posters don't overflow the container */
 .movie img {
-    max-width: 100%;
+    max-width: 100%; /* Limit the maximum width of movie posters */
     height: auto;
-    border: 1px solid #333;
+    border: 1px solid #333; /* Add a border around movie posters */
     border-radius: 5px;
-    transition: transform 0.3s;
+    transition: transform 0.3s; /* Add a smooth transition effect */
 }
-
 
 .movie img:hover {
     transform: scale(1.1); /* Scale up the image on hover */
@@ -358,3 +354,47 @@ footer {
     padding: 10px 0;
     margin: 0; /* Add margin to control space around the footer */
 }
+
+#errorMessage {
+    color: white;
+    font-size: 16px;
+    background-color: #000;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px; /* Adjust the distance from the search bar */
+}
+
+
+
+#titleErrorMessage {
+    color: white;
+    font-size: 16px;
+    background-color: #000;
+    padding: 0px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#search-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#errorMessages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px; /* Adjust the margin as needed to control the space between the search button and error messages */
+}
+
+
+

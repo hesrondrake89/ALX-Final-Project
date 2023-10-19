@@ -255,3 +255,13 @@ body {
 body {
    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
 }
+
+ul.social-links {
+    list-style: none; /* Remove list-style (the default dot) */
+    padding: 0; /* Remove any default padding */
+}
+
+ul.social-links li {
+    display: inline; /* Display list items in a line */
+    margin-right: 10px; /* Add spacing between social icons */
+}
