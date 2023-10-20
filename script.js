@@ -1,5 +1,5 @@
-const tmdbApiKey = 'fc90ff78fa17b85bf5bcbdd19e6c16c5'; // Replace with your TMDB API key
-const omdbApiKey = '8a8cd539'; // Replace with your OMDB API key
+const tmdbApiKey = 'fc90ff78fa17b85bf5bcbdd19e6c16c5'; 
+const omdbApiKey = '8a8cd539'; 
 
 // Function to fetch and display movie data from OMDB API
 async function fetchMovieData(title) {
