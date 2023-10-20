@@ -77,10 +77,10 @@ header {
 }
 
 .social-logo {
-    width: 40px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
-    margin-right: 10px; /* Add spacing between the icon and text */
-    border: none; /* Remove any borders */
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
+    border: none; 
 }
 /* Return Button Styles */
 .return-button {
@@ -102,37 +102,37 @@ header {
 }
 
 .return-button {
-    display: inline-block; /* Change to inline-block to make it compact */
-    padding: 5px 10px; /* Adjust padding for the desired size */
-    background-color: #f5c518; /* Yellow color */
+    display: inline-block; 
+    padding: 5px 10px;
+    background-color: #f5c518;
     color: #333;
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
     transition: background-color 0.3s;
-    font-size: 20px; /* Adjust font size */
-    margin: 10px 0; /* Add spacing */
+    font-size: 20px; 
+    margin: 10px 0; 
 }
 
 .return-button:hover {
-    background-color: #d0ad1c; /* Color change on hover */
+    background-color: #d0ad1c; 
 }
 
 h1 {
-    color: #f5c518; /* Yellow color */
-    font-size: 28px; /* Adjust font size */
-    text-transform: uppercase; /* Uppercase the text */
-    letter-spacing: 2px; /* Adjust letter spacing */
+    color: #f5c518; 
+    font-size: 28px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
 }
 
 #about-us {
-    background-image: url('images/about_bg.png'); /* Replace 'background.jpg' with your image file's path */
-    background-size: cover; /* Adjust how the image covers the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image repetition */
+    background-image: url('images/about_bg.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
-/* Style the header container with the background image */
+/* Style the headeer container with the background image */
 .header-container {
     background-image: url("images/header-bg.jpg");
     background-size: cover;
@@ -157,10 +157,10 @@ header {
     margin-left: 20px;
 }
 
-/* Style the "About CinemaSeriesVault" section separately */
+/* this style seperates "About CinemaSeriesVault" from the about us */
 .about-us {
-    padding: 20px; /* Add padding to create space beneath the header */
-    color: #fff; /* Text color */
+    padding: 20px; 
+    color: #fff; 
 }
 
 html {
@@ -172,8 +172,8 @@ html {
     margin: 0 20px; /* Add some margin for spacing */
 }
 
-/* Add custom styles to your about.css */
-/* Override Bootstrap's default styles */
+
+/* code to Override Bootstrap's default styles */
 .navbar {
    background-color: #000; /* Background color for the navbar */
    border: none; /* Remove the border */
@@ -192,26 +192,26 @@ html {
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-   color: #f5c518; /* Color when hovering over the navigation links */
+   color: #f5c518; 
 }
 
 .container {
-   padding: 20px; /* Add padding around the content */
-   background-color: #0a0a0a; /* Background color for the section */
-   color: #fff; /* Text color for the section */
-   border-radius: 10px; /* Rounded corners for the section */
-   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+   padding: 20px; 
+   background-color: #0a0a0a; 
+   color: #fff; 
+   border-radius: 10px; 
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .about-us h1 {
-   color: #f5c518; /* Text color for the section header */
-   font-size: 28px; /* Font size for the section header */
-   text-transform: uppercase; /* Uppercase the text */
-   letter-spacing: 2px; /* Adjust letter spacing */
+   color: #f5c518; 
+   font-size: 28px; 
+   text-transform: uppercase; 
+   letter-spacing: 2px; 
 }
 
 body {
-   min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+   min-height: 100vh; /* this point sets the minimum height to 100% of the viewport height */
 }
 
 /* Overrided Bootstraps default styles */
@@ -221,46 +221,46 @@ body {
 }
 
 .navbar .navbar-toggler-icon {
-   background-color: #fff; /* Color for the hamburger icon */
+   background-color: #fff; 
 }
 
 .navbar .navbar-toggler {
-   border: none; /* Remove the border */
+   border: none; /* rhis points removes that thin line the border */
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-   color: #fff; /* Text color for the navigation links */
+   color: #fff; 
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-   color: #f5c518; /* Color when hovering over the navigation links */
+   color: #f5c518; 
 }
 
 .container {
-   padding: 20px; /* Add padding around the content */
-   background-color: #0a0a0a; /* Background color for the section */
-   color: #fff; /* Text color for the section */
-   border-radius: 10px; /* Rounded corners for the section */
-   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+   padding: 20px; 
+   background-color: #0a0a0a;
+   color: #fff;
+   border-radius: 10px; 
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .about-us h1 {
-   color: #f5c518; /* Text color for the section header */
-   font-size: 28px; /* Font size for the section header */
-   text-transform: uppercase; /* Uppercase the text */
-   letter-spacing: 2px; /* Adjust letter spacing */
+   color: #f5c518; 
+   font-size: 28px; 
+   text-transform: uppercase; 
+   letter-spacing: 2px; 
 }
 
 body {
-   min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+   min-height: 100vh; /* this section sets the minimum height to 100% of the viewport height */
 }
 
 ul.social-links {
-    list-style: none; /* Remove list-style (the default dot) */
-    padding: 0; /* Remove any default padding */
+    list-style: none;
+    padding: 0; 
 }
 
 ul.social-links li {
-    display: inline; /* Display list items in a line */
-    margin-right: 10px; /* Add spacing between social icons */
+    display: inline; 
+    margin-right: 10px; 
 }
