@@ -1,5 +1,5 @@
 const tmdbApiKey = 'fc90ff78fa17b85bf5bcbdd19e6c16c5'; // TMDB API Key
-const omdbApiKey = '8a8cd539'; // OMBD API Keys
+const omdbApiKey = '9u334ub2'; // OMBD API Keys
 
 // This is the functions to fetch and display movie data from OMDB API
 async function fetchMovieData(title) {
@@ -10,7 +10,7 @@ async function fetchMovieData(title) {
         if (data.Response === 'False') {
             document.getElementById('movieData').innerHTML = `<p>${data.Error}</p>`;
         } else {
-            // Construct URL parameters for movie details
+            // this section construsts URL parameters for movie details
             const params = new URLSearchParams();
             params.set('title', data.Title);
             params.set('year', data.Year);
