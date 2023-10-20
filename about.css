@@ -1,4 +1,4 @@
-/* Body Styles */
+/* body styles */
 body {
     margin: 0;
     padding: 0;
@@ -173,7 +173,7 @@ html {
 }
 
 
-/* code to Override Bootstrap's default styles */
+/* code to override bootstrap default styles */
 .navbar {
    background-color: #000; 
    border: none; 
