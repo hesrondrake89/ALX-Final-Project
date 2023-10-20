@@ -169,26 +169,26 @@ html {
 
 .return-button {
     float: right;
-    margin: 0 20px; /* Add some margin for spacing */
+    margin: 0 20px; 
 }
 
 
 /* code to Override Bootstrap's default styles */
 .navbar {
-   background-color: #000; /* Background color for the navbar */
-   border: none; /* Remove the border */
+   background-color: #000; 
+   border: none; 
 }
 
 .navbar .navbar-toggler-icon {
-   background-color: #fff; /* Color for the hamburger icon */
+   background-color: #fff; 
 }
 
 .navbar .navbar-toggler {
-   border: none; /* Remove the border */
+   border: none; 
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-   color: #fff; /* Text color for the navigation links */
+   color: #fff; 
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
@@ -216,8 +216,8 @@ body {
 
 /* Overrided Bootstraps default styles */
 .navbar {
-   background-color: #000; /* Background color for the navbar */
-   border: none; /* Remove the border */
+   background-color: #000; 
+   border: none; 
 }
 
 .navbar .navbar-toggler-icon {
