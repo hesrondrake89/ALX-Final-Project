@@ -68,3 +68,14 @@ In the next iteration, I plan to add more features, such as movie suggestions wh
 
 This project was created by Hesron Atee. You can find me on LinkedIn at https://gh.linkedin.com/in/hesron-atee-069729198.
 
+## Visuals
+![image1](https://github.com/hesrondrake89/Cinema-Series-Vault/assets/113859517/29bf29d3-43bc-434a-a443-afc5b00ed655)
+![image 2](https://github.com/hesrondrake89/Cinema-Series-Vault/assets/113859517/75e83cdd-f5b6-44bd-abf0-d705c03b5423)
+![image33](https://github.com/hesrondrake89/Cinema-Series-Vault/assets/113859517/b1ddd8f6-6934-4794-acc2-820e1d2ad98b)
+![image5](https://github.com/hesrondrake89/Cinema-Series-Vault/assets/113859517/7999902d-fae8-4e9e-8ecf-3d213e1b88ba)
+![image4](https://github.com/hesrondrake89/Cinema-Series-Vault/assets/113859517/a9e2f5f1-a395-422e-902b-cf7c680263ea)
+
+
+
+
+
