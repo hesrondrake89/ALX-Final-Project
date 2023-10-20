@@ -40,9 +40,6 @@ To use the application:
 
 If you'd like to contribute to this project, you can fork the repository, make changes, and submit a pull request. Feel free to report any issues or suggest improvements.
 
-## Related Projects
-
-- [Link to Related Project 1](URL)
 
 ## Licensing
 
