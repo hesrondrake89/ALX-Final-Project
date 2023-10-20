@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Body Styles */
 body {
     margin: 0;
     padding: 0;
@@ -214,8 +214,7 @@ body {
    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
 }
 
-/* Add custom styles to your about.css */
-/* Override Bootstrap's default styles */
+/* Overrided Bootstraps default styles */
 .navbar {
    background-color: #000; /* Background color for the navbar */
    border: none; /* Remove the border */
