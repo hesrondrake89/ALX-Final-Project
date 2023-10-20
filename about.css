@@ -77,12 +77,12 @@ header {
 }
 
 .social-logo {
-    width: 40px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
-    margin-right: 10px; /* Add spacing between the icon and text */
-    border: none; /* Remove any borders */
-}
-/* Return Button Styles */
+    width: 10px; 
+    height: 10px; 
+    margin-right: 10px; 
+    border: none; 
+    
+/* return button styles section */
 .return-button {
     display: block;
     margin: 20px auto;
@@ -126,10 +126,10 @@ h1 {
 }
 
 #about-us {
-    background-image: url('images/about_bg.png'); /* Replace 'background.jpg' with your image file's path */
-    background-size: cover; /* Adjust how the image covers the section */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent image repetition */
+    background-image: url('images/about_bg.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 /* Style the header container with the background image */
@@ -159,8 +159,8 @@ header {
 
 /* Style the "About CinemaSeriesVault" section separately */
 .about-us {
-    padding: 20px; /* Add padding to create space beneath the header */
-    color: #fff; /* Text color */
+    padding: 20px; 
+    color: #fff; 
 }
 
 html {
@@ -169,14 +169,13 @@ html {
 
 .return-button {
     float: right;
-    margin: 0 20px; /* Add some margin for spacing */
+    margin: 0 20px; 
 }
 
-/* Add custom styles to your about.css */
-/* Override Bootstrap's default styles */
+/* Overrided Bootstrap's default styles */
 .navbar {
-   background-color: #000; /* Background color for the navbar */
-   border: none; /* Remove the border */
+   background-color: #000; /* Background color for the navigationbar */
+   border: none; 
 }
 
 .navbar .navbar-toggler-icon {
@@ -196,71 +195,71 @@ html {
 }
 
 .container {
-   padding: 20px; /* Add padding around the content */
-   background-color: #0a0a0a; /* Background color for the section */
-   color: #fff; /* Text color for the section */
-   border-radius: 10px; /* Rounded corners for the section */
-   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+   padding: 20px; 
+   background-color: #0a0a0a; /* this is the backgroud color for this section */
+   color: #fff; /* this section is the text color */
+   border-radius: 10px; /*  added rounded corners for the section */
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* this section is a for a subtle shadow */
 }
 
 .about-us h1 {
-   color: #f5c518; /* Text color for the section header */
-   font-size: 28px; /* Font size for the section header */
-   text-transform: uppercase; /* Uppercase the text */
-   letter-spacing: 2px; /* Adjust letter spacing */
+   color: #f5c518; /* this section is for text color of the header */
+   font-size: 28px; /* this section is the font size of the header */
+   text-transform: uppercase; 
+   letter-spacing: 2px; 
 }
 
 body {
-   min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+   min-height: 100vh; /* this sect the minimum height to 100% of the viewport height */
 }
 
 /* Overrided Bootstraps default styles */
 .navbar {
-   background-color: #000; /* Background color for the navbar */
+   background-color: #000; /* Background color for the navigation bar */
    border: none; /* Remove the border */
 }
 
 .navbar .navbar-toggler-icon {
-   background-color: #fff; /* Color for the hamburger icon */
+   background-color: #fff; /* this is the color for the hamburger icon */
 }
 
 .navbar .navbar-toggler {
-   border: none; /* Remove the border */
+   border: none; /* this section is to remove the border */
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-   color: #fff; /* Text color for the navigation links */
+   color: #fff; /* text color for the navigation links */
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-   color: #f5c518; /* Color when hovering over the navigation links */
+   color: #f5c518; /* this is color whena user hovering over the navigation links */
 }
 
 .container {
-   padding: 20px; /* Add padding around the content */
-   background-color: #0a0a0a; /* Background color for the section */
-   color: #fff; /* Text color for the section */
-   border-radius: 10px; /* Rounded corners for the section */
-   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+   padding: 20px; /* this section is to add padding around the content */
+   background-color: #0a0a0a; 
+   color: #fff; /* this section is the changes the color of the text */
+   border-radius: 10px; /* this section gives a round feeling to the text */
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .about-us h1 {
-   color: #f5c518; /* Text color for the section header */
-   font-size: 28px; /* Font size for the section header */
-   text-transform: uppercase; /* Uppercase the text */
-   letter-spacing: 2px; /* Adjust letter spacing */
+   color: #f5c518; 
+   font-size: 28px; 
+   text-transform: uppercase;
+   letter-spacing: 2px; 
 }
 
 body {
-   min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+   min-height: 100vh; /* this section sets the minimum height to 100% of the viewport height */
 }
 
 ul.social-links {
-    list-style: none; /* Remove list-style (the default dot) */
-    padding: 0; /* Remove any default padding */
+    list-style: none; /* this section removes list-style */
+    padding: 0; /* this section removes any default padding */
 }
 
 ul.social-links li {
-    display: inline; /* Display list items in a line */
-    margin-right: 10px; /* Add spacing between social icons */
+    display: inline; /* this section displays list items in a line */
+    margin-right: 10px; /* this section adds spacing */
 }
