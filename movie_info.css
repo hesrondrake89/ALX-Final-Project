@@ -1,6 +1,6 @@
 body {
-    background-color: #121212; /* Dark background color */
-    color: #FFFFFF; /* Text color */
+    background-color: #121212; 
+    color: #FFFFFF; /* background text color */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -38,12 +38,12 @@ p {
 }
 
 strong {
-    color: #FFD700; /* Gold color for labels */
+    color: #FFD700; /* Added a gold color for labels */
 }
 
 #returnButton {
-    background-color: #FFD700; /* Gold button color */
-    color: #000; /* Text color for the button */
+    background-color: #FFD700; /* Added gold button color */
+    color: #000; /* added a color for the button */
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -52,7 +52,7 @@ strong {
 }
 
 #returnButton:hover {
-    background-color: #FFA500; /* Hover color for the button */
+    background-color: #FFA500; /* Also added a hover color for the button */
 }
 
 body {
@@ -81,20 +81,20 @@ body {
     background-color: #FFA500;
 }
 
-/* New CSS for movie-container */
+/* Added a new CSS for movie-container */
 .movie-container {
     display: flex;
     background-color: #121212;
     border: 1px solid #333;
     border-radius: 5px;
     padding: 20px;
-    max-width: 800px; /* Limit maximum width for better alignment */
-    margin: 0 auto; /* Center horizontally */
+    max-width: 800px; /* this section limit maximum width for better adjustment */
+    margin: 0 auto; /* center horizontally */
 }
 
 .movie-poster img {
-    max-width: 300px; /* Increase maximum width for the poster */
-    max-height: 450px; /* Increase maximum height for the poster */
+    max-width: 300px; /* This resizes maximum width for the poster */
+    max-height: 450px; /* this resizes maximum height for the poster */
     object-fit: cover;
     border: 1px solid #333;
 }
@@ -102,8 +102,8 @@ body {
 .movie-info {
     margin-left: 20px;
     display: flex;
-    flex-direction: column; /* Display info in a column layout */
-    align-items: flex-start; /* Align info to the start of the column */
+    flex-direction: column; /* This displays the info in a column layout */
+    align-items: flex-start; /* this section aligns info to the start of the column */
 }
 
 h1 {
@@ -129,9 +129,8 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 for 50% opacity) */
-    color: #fff; /* Text color for readability */
-    /* Add other styles for the container as needed */
+    background-color: rgba(0, 0, 0, 0.5); /* This is to adjust the opacity (0.5 for 50% opacity) */
+    color: #fff; /* This is the adjust the text color for readability */
 }
 
 body {
@@ -141,20 +140,20 @@ body {
 }
 
 .movie-info-container {
-    height: 100vh; /* Set the height to 100% of the viewport height */
-    width: 100%; /* Set the width to 100% of the viewport width */
-    background-image: url('URL_TO_MOVIE_BACKGROUND_IMAGE');
+    height: 100vh; /* This section set the height to 100% of the viewport height */
+    width: 100%; /* this section set the width to 100% of the viewport width */
+    background-image: url('');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (0.5 for 50% opacity) */
-    color: #fff; /* Text color for readability */
-    /* Add other styles for the container as needed */
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; /* this section sets text color for readability */
+   
 }
 
 
 body {
-    padding-top: 80px; /* Add padding to the top to make space for the header */
+    padding-top: 80px; /* This section adds padding to the top to make space for the header */
 }
 
 /* movie_info.css */
