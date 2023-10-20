@@ -274,7 +274,7 @@ h1, h2, h3 {
 }
 
 .movie-scroll-container {
-    max-width: 70%; 
+    max-width: 100%; 
     overflow-x: auto; 
     overflow-y: hidden; 
     max-height: 300px; 
