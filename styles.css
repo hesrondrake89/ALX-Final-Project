@@ -202,7 +202,7 @@ h1, h2, h3 {
 }
 
 
-/* This section djust the movie poster size and grid */
+/* This section adjust the movie poster size and grid */
 .movie-poster img {
     max-width: 250px; 
     max-height: 225px; 
@@ -210,7 +210,7 @@ h1, h2, h3 {
     border: 1px solid #333;
 }
 
-/* CSS for the scrolln container */
+/* CSS for the scrolling container */
 .movie-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
@@ -266,7 +266,7 @@ h1, h2, h3 {
     color: #333;
 }
 
-/* Updatd CSS for the movie titles */
+/* Updated CSS style for the movie titles */
 .movie p {
     margin-top: 5px;
     white-space: normal; 
@@ -279,7 +279,7 @@ h1, h2, h3 {
     overflow-y: hidden; 
     max-height: 300px; 
 }
-/* stylish bottom for the search bar */
+/* stylish button for the search bar */
 .stylish-button {
     padding: 15px 20px;
     background-color: #f5c518;
@@ -296,7 +296,7 @@ h1, h2, h3 {
     background-color: #d0ad1c;
 }
 
-/* Stylish bottom About Us button */
+/* Added Stylish feel to the About Us button */
 .about-button {
     display: block;
     margin: 20px auto; 
@@ -312,7 +312,7 @@ h1, h2, h3 {
     background-color: #d0ad1c;
 }
 
-/* added this rule to shift the abt the button to the right */
+/* added this rule to shift the about us the button to the right */
 .about-button.shift-right {
     margin-left: 100px; 
 }
@@ -325,7 +325,7 @@ h1, h2, h3 {
 }
 
 
-/* Stylesss for desktop screens */
+/* Styles for desktop screens */
 @media (min-width: 769px) {
     
     body {
@@ -335,7 +335,7 @@ h1, h2, h3 {
     }
 }
 
-/* Stylesss for mobile screens */
+/* Styles for mobile screens */
 
 @media (max-width: 768px) {
     
@@ -346,7 +346,7 @@ h1, h2, h3 {
     }
 }
 
-/* commntrol space around the footer */
+/* control space around the footer */
 footer {
     text-align: center;
     background: #333;
@@ -355,7 +355,7 @@ footer {
     margin: 0; 
 }
 
-/* errorment message adjustment distance from search bar */
+/* error message adjustment distance from search bar */
 #errorMessage {
     color: white;
     font-size: 16px;
@@ -394,7 +394,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px; /* margiinzn controls the space between the search button and error messages */
+    margin-top: 10px; /* this margin controls the space between the search button and error messages */
 }
 
 
