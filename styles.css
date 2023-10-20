@@ -114,10 +114,10 @@ h1, h2, h3 {
 
 #movieTitleInput {
     display: block;
-    margin: 20px auto; /* Add margin to center the input bar and create space */
-    width: 800px; /* Adjust the width as needed to increase the input bar width */
-    padding: 15px; /* Increase padding to make it taller */
-    font-size: 18px; /* Adjust font size as needed */
+    margin: 20px auto;
+    width: 800px; 
+    padding: 15px; 
+    font-size: 18px; 
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s;
@@ -154,9 +154,9 @@ h1, h2, h3 {
     display: inline-block;
 }
 
-/* Updated CSS to remove black overlay */
+/* Updated CSS code to remove black overlay */
 .hero-content {
-    background-color: transparent; /* Set background color to transparent */
+    background-color: transparent; 
     padding: 20px;
     border-radius: 10px;
     display: inline-block;
@@ -173,83 +173,83 @@ h1, h2, h3 {
 
 /* Styles for the movie section */
 .movie-section {
-    background-color: #f5f5f5; /* Background color for the movie section */
-    padding: 40px 0; /* Add some padding to the movie section */
+    background-color: #f5f5f5; 
+    padding: 40px 0; 
     text-align: center;
 }
 
 .movie-section h2 {
     font-size: 28px;
-    color: #333; /* Text color for the section title */
+    color: #333; 
 }
 
 
 .movie a {
     text-decoration: none;
-    color: #333; /* Text color for movie titles */
+    color: #333; 
 }
 
 .movie img {
-    max-width: 100%; /* Limit the maximum width of movie posters */
+    max-width: 100%; 
     height: auto;
-    border: 1px solid #333; /* Add a border around movie posters */
+    border: 1px solid #333; 
     border-radius: 5px;
-    transition: transform 0.3s; /* Add a smooth transition effect */
+    transition: transform 0.3s;
 }
 
 .movie img:hover {
-    transform: scale(1.1); /* Scale up the image on hover */
+    transform: scale(1.1);
 }
 
 
-/* Adjust the movie poster size and grid */
+/* This section djust the movie poster size and grid */
 .movie-poster img {
-    max-width: 250px; /* Set the maximum width for movie posters */
-    max-height: 225px; /* Set the maximum height for movie posters */
+    max-width: 250px; 
+    max-height: 225px; 
     object-fit: cover;
     border: 1px solid #333;
 }
 
-/* CSS for the scrolling container */
+/* CSS for the scrolln container */
 .movie-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minmax width as needed */
-    gap: 20px; /* Adjust the gap as needed to separate movies */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 20px; 
     overflow: hidden;
     white-space: nowrap;
-    width: 262%; /* Ensure the container takes up the full width */
+    width: 262%; 
 }
 
 .movie {
     display: inline-block;
-    margin-right: 20px; /* Adjust the margin as needed to separate movies */
+    margin-right: 20px;
 }
 
 .movie p {
-    margin-top: 5px; /* Add space between movie titles */
+    margin-top: 5px; 
 }
 
 .movie-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 20px;
-    overflow: auto; /* Change 'hidden' to 'auto' */
+    overflow: auto; 
     white-space: nowrap;
     position: relative;
 }
 
 .movie-scroll-container {
-    max-width: 100%; /* Ensure it takes up the available width */
-    overflow: visible; /* Change 'hidden' to 'visible' */
-    max-height: 300px; /* Set a maximum height for the scrollable area */
+    max-width: 100%; 
+    overflow: visible; 
+    max-height: 300px; 
 }
 
 #movie-section-container {
-    max-height: 400px; /* Set a maximum height for the scrollable area */
-    overflow: auto; /* Enable scrolling for this container */
+    max-height: 400px; 
+    overflow: auto;
 }
 
-/* Styles for the movie section */
+/* Another styles for the movie section */
 .movie-section {
     background-color: #f5f5f5;
     padding: 40px 0;
@@ -266,20 +266,20 @@ h1, h2, h3 {
     color: #333;
 }
 
-/* Updated CSS for the movie titles */
+/* Updatd CSS for the movie titles */
 .movie p {
     margin-top: 5px;
-    white-space: normal; /* Wrap titles onto a new line if they don't fit */
-    max-width: 150px; /* Limit the maximum width for movie titles */
+    white-space: normal; 
+    max-width: 150px; 
 }
 
 .movie-scroll-container {
-    max-width: 100%; /* Ensure it takes up the available width */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    overflow-y: hidden; /* Disable vertical scrolling */
-    max-height: 300px; /* Set a maximum height for the scrollable area */
+    max-width: 100%; 
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    max-height: 300px; 
 }
-
+/* stylish bottom for the search bar */
 .stylish-button {
     padding: 15px 20px;
     background-color: #f5c518;
@@ -296,10 +296,10 @@ h1, h2, h3 {
     background-color: #d0ad1c;
 }
 
-/* Stylish About Us button */
+/* Stylish bottom About Us button */
 .about-button {
     display: block;
-    margin: 20px auto; /* Add margin to create space around the button */
+    margin: 20px auto; 
     padding: 10px 20px;
     background-color: #f5c518;
     color: #333;
@@ -312,9 +312,9 @@ h1, h2, h3 {
     background-color: #d0ad1c;
 }
 
-/* Add this rule to shift the button to the right */
+/* added this rule to shift the abt the button to the right */
 .about-button.shift-right {
-    margin-left: 100px; /* You can adjust the margin value as needed */
+    margin-left: 100px; 
 }
 
 /* Adjust the button size on small screens */
@@ -325,36 +325,37 @@ h1, h2, h3 {
 }
 
 
-/* Styles for desktop screens */
-/* These styles will apply to screens wider than 768px */
+/* Stylesss for desktop screens */
 @media (min-width: 769px) {
-    /* Your desktop-specific styles go here */
+    
     body {
-        width: 100%; /* Set a maximum width for the body element */
-        max-width: 1920px; /* Adjust the maximum width as needed */
-        margin: 0 auto; /* Center-align the content */
+        width: 100%; 
+        max-width: 1920px; 
+        margin: 0 auto; 
     }
 }
 
-/* Styles for mobile screens */
-/* These styles will apply to screens 768px wide and below */
+/* Stylesss for mobile screens */
+
 @media (max-width: 768px) {
-    /* Your mobile-specific styles go here */
+    
     body {
-        width: 100%; /* Set a maximum width for the body element on mobile */
-        margin: 0; /* Remove horizontal margin on mobile */
-        padding: 0; /* Remove horizontal padding on mobile */
+        width: 100%; 
+        margin: 0; 
+        padding: 0; 
     }
 }
 
+/* commntrol space around the footer */
 footer {
     text-align: center;
     background: #333;
     color: #fff;
     padding: 10px 0;
-    margin: 0; /* Add margin to control space around the footer */
+    margin: 0; 
 }
 
+/* errorment message adjustment distance from search bar */
 #errorMessage {
     color: white;
     font-size: 16px;
@@ -365,7 +366,7 @@ footer {
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 10px; /* Adjust the distance from the search bar */
+    top: 10px; 
 }
 
 
@@ -393,7 +394,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px; /* Adjust the margin as needed to control the space between the search button and error messages */
+    margin-top: 10px; /* margiinzn controls the space between the search button and error messages */
 }
 
 
