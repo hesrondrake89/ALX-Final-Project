@@ -8,9 +8,12 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
+    <header> 
         <div class="logo">
             <img src="images/my_logo.png" alt="CinemaSeriesVault">
+        </div>
+        <div class="button-container">
+            <button id="returnButton">Return to Search</button>
         </div>
     </header>
 
@@ -27,7 +30,7 @@
             <p><strong>Genre:</strong> <span id="movieGenre"></span></p>
             <p><strong>IMDB Rating:</strong> <span id="movieRating"></span></p>
             <p><strong>Plot:</strong> <span id="moviePlot"></span></p>
-            <button id="returnButton">Return to Search</button>
+            
         </div>
     </div>
     
@@ -54,9 +57,9 @@
             document.getElementById('movieRating').textContent = rating;
             document.getElementById('moviePoster').src = poster;
 
-            // This code handles the return button click
+            // click event functon handles the return button click
             document.getElementById('returnButton').addEventListener('click', function () {
-                // this code handles the Navigation back to the index.html page
+                // navigates back to the index.html page
                 window.location.href = 'index.html';
             });
         });
