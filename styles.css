@@ -1,3 +1,4 @@
+/* body stlyes */
 body {
     font-family: Nunito, sans-serif;
     background-color: #f5f5f5;
@@ -41,6 +42,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1; 
 }
 
 .logo img {
@@ -114,7 +116,7 @@ h1, h2, h3 {
 
 #movieTitleInput {
     display: block;
-    margin: 20px auto;
+    margin: 20px auto; 
     width: 800px; 
     padding: 15px; 
     font-size: 18px; 
@@ -133,19 +135,7 @@ h1, h2, h3 {
     margin-top: 60px;
 }
 
-.header-background {
-    background-image: url("images/header-bg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.8; /* Adjust opacity as needed */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
+
 
 .hero-content {
     background-color: rgba(0, 0, 0, 0.6);
@@ -154,7 +144,7 @@ h1, h2, h3 {
     display: inline-block;
 }
 
-/* Updated CSS code to remove black overlay */
+/* updated css rule to remove black overlay */
 .hero-content {
     background-color: transparent; 
     padding: 20px;
@@ -171,7 +161,7 @@ h1, h2, h3 {
     margin-top: 60px;
 }
 
-/* Styles for the movie section */
+/* css style for the movie section */
 .movie-section {
     background-color: #f5f5f5; 
     padding: 40px 0; 
@@ -194,15 +184,15 @@ h1, h2, h3 {
     height: auto;
     border: 1px solid #333; 
     border-radius: 5px;
-    transition: transform 0.3s;
+    transition: transform 0.3s; 
 }
 
 .movie img:hover {
-    transform: scale(1.1);
+    transform: scale(1.1); 
 }
 
 
-/* This section adjust the movie poster size and grid */
+/* css rule to adjust the movie poster size and grid */
 .movie-poster img {
     max-width: 250px; 
     max-height: 225px; 
@@ -210,7 +200,7 @@ h1, h2, h3 {
     border: 1px solid #333;
 }
 
-/* CSS for the scrolling container */
+/* css rule for the scrolling container */
 .movie-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
@@ -222,7 +212,7 @@ h1, h2, h3 {
 
 .movie {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 
 .movie p {
@@ -246,10 +236,10 @@ h1, h2, h3 {
 
 #movie-section-container {
     max-height: 400px; 
-    overflow: auto;
+    overflow: auto; 
 }
 
-/* Another styles for the movie section */
+/* another css styles for the movie section */
 .movie-section {
     background-color: #f5f5f5;
     padding: 40px 0;
@@ -266,7 +256,7 @@ h1, h2, h3 {
     color: #333;
 }
 
-/* Updated CSS style for the movie titles */
+/* updated css rule for the movie titles */
 .movie p {
     margin-top: 5px;
     white-space: normal; 
@@ -279,7 +269,7 @@ h1, h2, h3 {
     overflow-y: hidden; 
     max-height: 300px; 
 }
-/* stylish button for the search bar */
+
 .stylish-button {
     padding: 15px 20px;
     background-color: #f5c518;
@@ -296,7 +286,7 @@ h1, h2, h3 {
     background-color: #d0ad1c;
 }
 
-/* Added Stylish feel to the About Us button */
+/* css rule to style about us button */
 .about-button {
     display: block;
     margin: 20px auto; 
@@ -312,22 +302,16 @@ h1, h2, h3 {
     background-color: #d0ad1c;
 }
 
-/* added this rule to shift the about us the button to the right */
-.about-button.shift-right {
-    margin-left: 100px; 
-}
 
-/* Adjust the button size on small screens */
-@media (max-width: 576px) {
-    #aboutUsButton {
-        padding: 5px 10px;
-    }
+.button-container {
+    margin-left: auto;
+    padding-right: 20px; 
 }
 
 
-/* Styles for desktop screens */
+/* These styles will apply to screens wider than 768px */
 @media (min-width: 769px) {
-    
+    /* desktop screen size */
     body {
         width: 100%; 
         max-width: 1920px; 
@@ -335,10 +319,9 @@ h1, h2, h3 {
     }
 }
 
-/* Styles for mobile screens */
-
+/* These styles will apply to screens 768px wide and below */
 @media (max-width: 768px) {
-    
+    /* mobile screen size */
     body {
         width: 100%; 
         margin: 0; 
@@ -346,7 +329,6 @@ h1, h2, h3 {
     }
 }
 
-/* control space around the footer */
 footer {
     text-align: center;
     background: #333;
@@ -355,7 +337,6 @@ footer {
     margin: 0; 
 }
 
-/* error message adjustment distance from search bar */
 #errorMessage {
     color: white;
     font-size: 16px;
@@ -394,8 +375,154 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px; /* this margin controls the space between the search button and error messages */
+    margin-top: 10px; 
 }
 
 
+/* updated css rule styling for the movie suggestions dropdown */
+.suggestions-container {
+    position: relative;
+}
 
+.suggestions {
+    position: absolute;
+    background-color: #333; 
+    border: 1px solid #444; 
+    width: 100%; 
+    max-height: 200px; 
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.suggestions li {
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suggestions li img {
+    width: 60px; 
+    height: 90px;
+    margin-right: 10px;
+}
+
+.suggestions li span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.suggestions li:hover {
+    background-color: #555; 
+}
+
+/* css rule to remove the unwanted black lines */
+.suggestions-container::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: transparent; 
+}
+
+/* css rule for the suggestion container */
+.suggestions-container {
+    position: relative;
+}
+
+.suggestions {
+    position: absolute;
+    background-color: #333;
+    border: none; 
+    width: 63%;
+    max-height: 200px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.suggestions li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suggestions li img {
+    width: 60px;
+    height: 90px;
+    margin-right: 10px;
+}
+
+.suggestions li span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.suggestions li:hover {
+    background-color: #555;
+}
+
+.tv-airing-today-section {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.horizontal-scroll {
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tv-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* css rule for the tv series container elements */
+.tv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 300px; 
+    flex-wrap: wrap; 
+}
+
+/* css rule for TV series posters */
+.tv-poster {
+    flex-basis: 150px; 
+    max-width: 150px; 
+    max-height: 200px; 
+    object-fit: cover;
+    border: 1px solid #333;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+/* css rule for enlarge effect TV series posters on hover */
+.tv-poster:hover {
+    transform: scale(1.1);
+}
+
+/* css rule for TV series titles */
+.tv-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    margin-top: 5px; 
+}
