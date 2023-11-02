@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <style>
-        /* Added CSS for centering the text in the footer */
+        /* added CSS for centerring the text in the footer */
         footer {
             text-align: center;
             background: #333; 
             color: #fff; 
-            padding: 10px 0; 
+            padding: 10px 0;
         }
     </style>
 </head>
@@ -22,7 +22,10 @@
         <div class="logo">
             <img src="images/my_logo.png" alt="CinemaSeriesVault">
         </div>
-        <button id="aboutUsButton" onclick="window.location.href='about.html'" class="stylish-button">About Us</button>
+        <div class="button-container">
+            <button id="aboutUsButton" onclick="window.location.href='about.html'" class="stylish-button">About Us</button>
+         </div>
+        
     </header>
 
     <div class="hero">
@@ -34,30 +37,41 @@
             <div id="search-container" style="margin-top: 5px;">
                 <input type="text" id="movieTitleInput" placeholder="Enter movie/series title">
                 <button id="fetchButton">Search</button>
-                <span id="titleErrorMessage" class="error-message"></span> <!-- Title is Required Error -->
-                <span id="errorMessage" class="error-message"></span> <!-- Movie Not Found Error -->
+                <span id="titleErrorMessage" class="error-message"></span> <!-- title is required error -->
+                <span id="errorMessage" class="error-message"></span> <!-- movie not found error -->
+                <ul id="suggestions" class="suggestions"></ul> <!-- tv/show suggestions -->
             </div>
+
         </div>
     </div>
 
-    <!-- I added HTML structure for the upcoming movie section -->
+    <!-- HTML structure for the upcoming movie releases section -->
     <section class="movie-section">
         <h2>Upcoming Movie Releases</h2>
         <div id="movie-section-container" class="row">
-            <!-- Add Bootstrap responsive classes to your movie containers -->
+            <!-- Added bootstrap responsive classes to the movie containers -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 movie-container">
-                <!-- Movie elements will be added here using JavaScript -->
+                
             </div>
-    
+           
         </div>
     </section>
 
+    <!-- HTML structure for the Tv shows airing today section -->
+<div class="movie-section">
+    <h2>TV Shows Airing Today</h2>
+    <div id="tv-airing-today-container" class="horizontal-scroll">
+        
+    </div>
+</div>
+    </div>
+
     <div id="movieData">
-        <!-- I Added this span for the error message within the same div -->
+        <!-- error message span -->
         <span id="errorMessage" class="error-message"></span>
     </div>
 
-    <!-- Footer -->
+    <!-- the footer -->
     <footer>
         <p>&copy; 2023 CinemaSeriesVault. All Rights Reserved.</p>
     </footer>
