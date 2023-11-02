@@ -1,4 +1,4 @@
-/* body styles */
+/* body Styles */
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     padding: 20px;
 }
 
-/* Header Styles */
+/* header styles */
 header {
     text-align: center;
     padding: 20px;
@@ -23,7 +23,7 @@ header {
     max-width: 150px;
 }
 
-/* About Content Styles */
+/* about content styles */
 .about-content {
     padding: 20px;
     text-align: center;
@@ -53,7 +53,7 @@ header {
     color: #777;
 }
 
-/* Social Links Styles */
+/* social links styles */
 .social-links {
     display: flex;
     flex-direction: column;
@@ -82,40 +82,22 @@ header {
     margin-right: 10px; 
     border: none; 
 }
-/* Return Button Styles */
+
+/* return button styles */
 .return-button {
     display: block;
-    margin: 20px auto;
+    margin: 20px auto; 
     padding: 10px 20px;
-    background-color: #0074D9;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.return-button:hover {
-    background-color: #0056B3;
-}
-
-.return-button {
-    display: inline-block; 
-    padding: 5px 10px;
     background-color: #f5c518;
     color: #333;
     text-decoration: none;
+    border-radius: 5px;
     font-weight: bold;
-    border-radius: 10px;
-    transition: background-color 0.3s;
-    font-size: 20px; 
-    margin: 10px 0; 
 }
 
+
 .return-button:hover {
-    background-color: #d0ad1c; 
+    background-color: #FFA500; 
 }
 
 h1 {
@@ -132,19 +114,25 @@ h1 {
     background-repeat: no-repeat; 
 }
 
-/* Style the headeer container with the background image */
-.header-container {
+/* styled the header container with a bg image */
+header {
     background-image: url("images/header-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
     width: 100%;
+    z-index: 1; 
 }
 
 
-/* Style the header content within the container */
+/* styled the header content within the container */
 header {
     display: flex;
     justify-content: space-between;
@@ -157,10 +145,14 @@ header {
     margin-left: 20px;
 }
 
-/* this style seperates "About CinemaSeriesVault" from the about us */
+/* styled the "About CinemaSeriesVault" section separately */
 .about-us {
-    padding: 20px; 
-    color: #fff; 
+    padding: 100px 20px 20px;
+    color: #fff;
+    background-image: url('images/about_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 html {
@@ -172,8 +164,7 @@ html {
     margin: 0 20px; 
 }
 
-
-/* code to override bootstrap default styles */
+/* ooverrides bootstrapss default styles */
 .navbar {
    background-color: #000; 
    border: none; 
@@ -192,7 +183,7 @@ html {
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-   color: #f5c518; 
+   color: #f5c518; /* the color when user is hovering overrr the navigation links */
 }
 
 .container {
@@ -211,52 +202,11 @@ html {
 }
 
 body {
-   min-height: 100vh; /* this point sets the minimum height to 100% of the viewport height */
-}
-
-/* Overrided Bootstraps default styles */
-.navbar {
-   background-color: #000; 
-   border: none; 
-}
-
-.navbar .navbar-toggler-icon {
-   background-color: #fff; 
-}
-
-.navbar .navbar-toggler {
-   border: none; /* rhis points removes that thin line the border */
-}
-
-.navbar .navbar-nav .nav-item .nav-link {
-   color: #fff; 
-}
-
-.navbar .navbar-nav .nav-item .nav-link:hover {
-   color: #f5c518; 
-}
-
-.container {
-   padding: 20px; 
-   background-color: #0a0a0a;
-   color: #fff;
-   border-radius: 10px; 
-   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-}
-
-.about-us h1 {
-   color: #f5c518; 
-   font-size: 28px; 
-   text-transform: uppercase; 
-   letter-spacing: 2px; 
-}
-
-body {
-   min-height: 100vh; /* this section sets the minimum height to 100% of the viewport height */
+   min-height: 100vh; 
 }
 
 ul.social-links {
-    list-style: none;
+    list-style: none; 
     padding: 0; 
 }
 
